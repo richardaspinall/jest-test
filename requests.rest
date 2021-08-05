@@ -1,0 +1,17 @@
+### POST: create a user
+POST http://localhost:3000/user/create HTTP/1.1
+content-type: application/json
+
+{
+    "username": "jdoe",
+    "firstname": "jane",
+    "lastname": "doe"
+}
+
+### GET: return all users
+GET http://localhost:3000/users HTTP/1.1
+
+### GET: return a single user
+GET http://localhost:3000/user/raspinall HTTP/1.1
+
+
